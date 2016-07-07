@@ -1,0 +1,26 @@
+.canvasContainer, .logContainer {
+	float:left;
+	min-width:400px;
+}
+.logContainer {
+	margin-left:20px;
+}
+canvas {
+	border: 1px solid #ccc;
+}
+#outputLog {
+	width:300px;
+	height:500px;
+	border: 1px solid red;
+	margin-bottom:20px;
+	padding:10px;
+}
+#outputLog .logblock {
+	display:inline-block;
+	width:20px;
+	height:20px;
+	margin-right:6px;
+}
+#startBtn {
+	font-size:20px;
+}
